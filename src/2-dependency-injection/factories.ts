@@ -1,5 +1,4 @@
-import { BcryptAdapter, LuxonAdapter } from "../adapters";
-import { AWSMailAdapter } from "../adapters/GCPMailAdapter";
+import { BcryptAdapter, LuxonAdapter,AWSMailAdapter } from "../adapters";
 import { PgUsersRepository } from "../repositories/PgUsersRepository";
 import { CreateUserService } from "./CreateUserService";
 import { UsersController } from "./UsersController";

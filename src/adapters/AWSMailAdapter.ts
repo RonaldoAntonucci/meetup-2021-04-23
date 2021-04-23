@@ -1,7 +1,7 @@
 import { IMailProvider } from "../contracts";
 
-export class GCPMailAdapter implements IMailProvider{
+export class AWSMailAdapter implements IMailProvider{
   send():void{
-    console.log('GCP send Mail.')
+    console.log('AWS send Mail.')
   }
 }
