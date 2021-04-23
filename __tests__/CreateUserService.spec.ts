@@ -1,5 +1,4 @@
 import {CreateUserService} from '../src/3-dependency-inversion/CreateUserService'
-import { IDateProvider, IFindUserByEmailRepository } from '../src/contracts'
 import {CreateUserRepositorySpy,FindUserByEmailRepositorySpy,HashPasswordSpy,DateProviderSpy,MailProviderSpy} from './spys'
 
 describe('CreateUserService - unit', ()=>{
