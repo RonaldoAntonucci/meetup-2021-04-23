@@ -27,6 +27,6 @@ O design pattern da injeção de dependencias é utilizado para implementar o co
 <img src="https://i.ibb.co/zRb6wvT/acoplamento.jpg" alt="Alto acoplamento"/>
 
 > # Exemplo arquitetura com baixo acoplamento
-<img src="https://i.ibb.co/YcrFP2W/baixo-acoplamento.jpg" alt="Baixo acoplamento"/>
+<img src="https://i.ibb.co/1J2DMyL/baixo-acoplamento.jpg" alt="Baixo acoplamento"/>
 
 # [Fluxograma](https://whimsical.com/inversao-de-dependencias-BeCwsiLss8XvEhEYeKmJbz)
