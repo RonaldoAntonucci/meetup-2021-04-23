@@ -10,5 +10,9 @@
   },
   "dependencies": {
     "ts-node-dev": "^1.1.6"
+  },
+  "scripts": {
+    "acoplamento": "ts-node-dev src/1-acoplamento/index.ts",
+    "inversion": "ts-node-dev src/3-dependency-inversion/index.ts"
   }
 }
