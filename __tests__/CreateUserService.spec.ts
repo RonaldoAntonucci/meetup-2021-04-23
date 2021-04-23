@@ -21,4 +21,10 @@ describe('CreateUserService - unit', ()=>{
   it('should be defined', ()=>{
     expect(sut).toBeDefined()
   })
+
+  it('should console', ()=>{
+    const consoleSpy = jest.spyOn(console, 'log')
+    sut.exec('mail')
+    expect(consoleSpy).toBeCalledWith('Exec Create User Service.')
+  })
 })

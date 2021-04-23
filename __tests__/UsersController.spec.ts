@@ -13,4 +13,10 @@ describe('UsersController - spec', ()=>{
   it('should be defined', ()=>{
     expect(sut).toBeDefined()
   })
+
+  it('should console', ()=>{
+    const consoleSpy = jest.spyOn(console, 'log')
+    sut.create({email: 'mail'})
+    expect(consoleSpy).toBeCalledWith('Usuário criado.')
+  })
 })
