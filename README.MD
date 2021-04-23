@@ -20,7 +20,7 @@ O design pattern da injeção de dependencias é utilizado para implementar o co
 
 > ## Desvantagens
 
-  * Código mais **verboso**.
+  * Código mais **verboso** no início.
   * Pode não fazer sentido sem a utilização de outros principios e padrões de projeto(**factory**, **strategy**, separação de camadas de infra, interfaces).
 
 > # Exemplo arquitetura com alto acoplamento
